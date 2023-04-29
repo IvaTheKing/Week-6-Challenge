@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  form {
+    display: flex;
+    margin: 10px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  #search-history {
+    margin: 10px;
+  }
+  
+  #search-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #search-list li {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  #current-weather,
+  #future-weather {
+    margin: 10px;
+  }
+  
+  #current-weather-info,
+  #future-weather-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: calc(20% - 20px);
+    text-align: center;
+  }
+  
+  .weather-info img {
+    width: 50px;
+    height: 50px;
+  }
